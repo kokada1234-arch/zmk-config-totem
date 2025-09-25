@@ -151,10 +151,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5      &kp NUMBER_6  &kp N7          &kp N8            &kp NUMBER_9  &kp NUMBER_0
-                  &kp LSHFT     &kp F2        &kp DOWN      &kp F4        &kp LBKT    &kp RBKT      &kp LEFT_BRACE  &kp PLUS          &kp ASTERISK  &kp RIGHT_BRACE
-&kp LOCKING_CAPS  &kp DEL       &kp PG_UP     &kp CAPS      &kp PG_DN     &kp LPAR    &kp RPAR      &kp LESS_THAN   &kp GREATER_THAN  &kp QUESTION  &kp UNDERSCORE   &trans
-                                              &trans        &trans        &trans      &mo ADJ       &kp KP_N0       &trans
+                  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5      &kp NUMBER_6  &kp N7         &kp N8            &kp NUMBER_9  &kp NUMBER_0
+                  &kp LSHFT     &kp F2        &kp DOWN      &kp F4        &kp LBKT    &kp RBKT      &kp EQUAL      &kp PLUS          &kp ASTERISK  &kp LEFT_BRACE
+&kp LOCKING_CAPS  &kp DEL       &kp PG_UP     &kp CAPS      &kp PG_DN     &kp LPAR    &kp RPAR      &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &kp UNDERSCORE  &kp RIGHT_BRACE
+                                              &trans        &trans        &trans      &mo ADJ       &kp KP_N0      &trans
             >;
         };
 
