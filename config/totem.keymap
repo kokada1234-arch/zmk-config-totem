@@ -44,6 +44,46 @@
             key-positions = <11 12 13>;
             bindings = <&tog TVP1>;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <1 2>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <20 15>;
+        };
+
+        del {
+            bindings = <&kp DELETE>;
+            key-positions = <20 14>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <20 27>;
+        };
+
+        up {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <20 8>;
+        };
+
+        down {
+            bindings = <&kp DOWN>;
+            key-positions = <20 9>;
+        };
+
+        left {
+            bindings = <&kp LEFT>;
+            key-positions = <20 11>;
+        };
+
+        right {
+            bindings = <&kp RIGHT>;
+            key-positions = <20 12>;
+        };
     };
 
     macros {
@@ -85,10 +125,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp Q       &kp W       &kp E        &kp R        &kp T        &kp J    &kp L        &kp U        &kp Y       &kp SEMI
-       &mt LGUI A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G        &kp H    &mt RSHFT N  &mt RCTRL E  &mt RALT I  &mt RGUI O
-&kp Q  &kp Z       &kp X       &kp C        &kp V        &kp B        &kp K    &kp M        &kp COMMA    &kp DOT     &kp FSLH    &kp BSLH
-                               &kp DEL      &lt NAV TAB  &kp SPACE    &kp RET  &lt SYM ESC  &kp BSPC
+                  &kp Q        &kp W       &kp E        &kp R        &kp T        &kp J    &kp L        &kp U        &kp Y       &kp SEMI
+                  &mt LSHFT A  &mt LALT S  &mt LCTRL D  &mt LSHFT F  &kp G        &kp H    &mt RSHFT N  &mt RCTRL E  &mt RALT I  &mt RGUI O
+&mt LCTRL ESCAPE  &mt LGUI Z   &mt LALT X  &kp C        &kp V        &kp B        &kp K    &kp M        &kp COMMA    &kp DOT     &kp FSLH    &kp BSLH
+                                           &kp DEL      &lt NAV TAB  &kp SPACE    &kp RET  &lt SYM ESC  &kp BSPC
             >;
         };
 
