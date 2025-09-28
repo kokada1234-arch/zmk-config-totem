@@ -151,10 +151,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5      &kp NUMBER_6  &kp N7         &kp N8            &kp NUMBER_9  &kp NUMBER_0
-                  &kp LSHFT     &kp F2        &kp DOWN      &kp F4        &kp LBKT    &kp RBKT      &kp EQUAL      &kp PLUS          &kp ASTERISK  &kp LEFT_BRACE
-&kp LOCKING_CAPS  &kp DEL       &kp PG_UP     &kp CAPS      &kp PG_DN     &kp LPAR    &kp RPAR      &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &kp UNDERSCORE  &kp RIGHT_BRACE
-                                              &trans        &trans        &trans      &mo ADJ       &kp KP_N0      &trans
+                  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5      &kp NUMBER_6  &kp N7     &kp N8         &kp NUMBER_9      &kp NUMBER_0
+                  &kp LSHFT     &kp F2        &kp DOWN      &kp F4        &kp LBKT    &kp RBKT      &kp EQUAL  &kp PLUS       &kp ASTERISK      &kp LSHFT
+&kp LOCKING_CAPS  &kp DEL       &kp PG_UP     &kp CAPS      &kp PG_DN     &kp LPAR    &kp UNDER     &kp MINUS  &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &kp RIGHT_BRACE
+                                              &trans        &trans        &trans      &mo ADJ       &kp KP_N0  &trans
             >;
         };
 
@@ -204,8 +204,8 @@
 
             bindings = <
         &sys_reset   &bt BT_CLR  &out OUT_TOG  &trans        &trans          &trans  &kp F7  &kp F8  &kp F9  &kp F12
-        &bootloader  &bt BT_NXT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans       &bt BT_PRV  &bt BT_SEL 3  &bt BT_SEL 4  &trans          &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+        &bootloader  &bt BT_NXT  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &trans       &bt BT_PRV  &bt BT_SEL 4  &trans        &trans          &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
                                  &trans        &trans        &trans          &trans  &trans  &trans
             >;
         };
